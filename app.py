@@ -301,7 +301,7 @@ if st.button("🚀 Translate"):
             with torch.no_grad():
                 generated_tokens = model.generate(
                     **inputs,
-                    forced_bos_token_id=tokenizer.lang_code_to_id[tgt_lang],
+                    forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
                     max_length=100
                 )
 
