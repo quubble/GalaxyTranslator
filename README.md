@@ -173,7 +173,7 @@ The application converts the selected languages into their corresponding NLLB la
 * **Model:** NLLB-200 distilled 600M
 * **Developed By:** Meta AI
 * **NLLB:** No Language Left Behind
-* **Language Coverage:** 196 languages
+* **Language Coverage:** 190+ languages
 * **Model Type:** Multilingual Neural Machine Translation
 * **Inference Mode:** No training required
 * **Framework:** Hugging Face Transformers + PyTorch
@@ -241,7 +241,7 @@ The application can run on a **CPU**, although inference can be faster when a su
 
 ### Recommended Development Environment
 
-* Python 3.10 or 3.11
+* Python 3.13 or 3.14
 * 8 GB or more RAM recommended
 * Modern CPU
 * GPU is optional
@@ -269,19 +269,23 @@ Therefore, the application should be considered an **AI-assisted translation sys
 
 # 🔮 Future Scope
 
+Extend the NLLB-200 text translation system into a voice-based multilingual translator by integrating Speech-to-Text, 
+language identification, and Text-to-Speech, enabling spoken translation across NLLB-200's supported languages.
+
+* **NLLB-200 is the translation engine, while speech recognition, language identification, and speech synthesis are separate modules. 
+Meta itself describes NLLB as a machine-translation system for written text.**
+
 🎤 Voice Input
-      ↓
+↓
 🗣️ Speech-to-Text
-      ↓
-🔍 Language Detection
-      ↓
-🤖 NLLB-200
-      ↓
+↓
+🔍 Language Identification
+↓
+🤖 NLLB-200 — Text Translation
+↓
 🔊 Text-to-Speech
-      ↓
-🎧 Voice Output
-
-
+↓
+🎧 Translated Voice Output
 
 ### ⚡ Model Optimization
 
