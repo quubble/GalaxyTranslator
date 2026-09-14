@@ -155,7 +155,8 @@ def load_model():
     return tokenizer, model
 
 
-tokenizer, model = load_model()
+with st.spinner("Loading Galaxy Translator AI model..."):
+    tokenizer, model = load_model()
 
 
 # NLLB LANGUAGE MAP
