@@ -56,6 +56,7 @@ Some supported languages include:
 GalaxyTranslator/
 ├── app.py
 ├── image.png
+├──config.toml
 ├── requirements.txt
 └── README.md
 ```
