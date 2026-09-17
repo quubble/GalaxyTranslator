@@ -139,7 +139,7 @@ textarea {
 
 # LOAD MODEL
 
-@st.cache_resource
+@st.cache_resource(show_spinner=False)
 def load_model():
 
     model_name = "facebook/nllb-200-distilled-600M"
