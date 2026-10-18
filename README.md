@@ -53,12 +53,15 @@ Some supported languages include:
 ## 📂 Project Structure
 
 ```bash
-GalaxyTranslator/
+Galaxy-Translator/
 ├── app.py
-├── image.png
-├──config.toml
+├── README.md
 ├── requirements.txt
-└── README.md
+├── assets/
+│   ├── home.png
+│   └── translation.png
+└── .streamlit/
+    └── config.toml
 ```
 
 ### File Description
@@ -71,6 +74,21 @@ GalaxyTranslator/
 > The `venv/` virtual environment is used for local development and should not be uploaded to GitHub.
 
 ---
+
+## Application Preview
+
+Here is a preview of the Galaxy Translator application.
+
+### 1. Translation Interface
+
+![Galaxy Translator - Translation Interface](assets/translation.png)
+
+### 2. Translation Output
+
+![Galaxy Translator - Translation Output](assets/home.png)
+
+
+
 
 ## ✅ Installation & Setup
 
