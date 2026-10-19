@@ -58,6 +58,7 @@ Galaxy-Translator/
 ├── README.md
 ├── requirements.txt
 ├── assets/
+    ├── background_image.png
 │   ├── home.png
 │   └── translation.png
 └── .streamlit/
@@ -67,7 +68,9 @@ Galaxy-Translator/
 ### File Description
 
 * `app.py` → Main Streamlit application
-* `image.png` → Background image
+* `assets/background_image.png` → Background image
+* `assets/translation.png` → translation image
+* `assets/home.png` → translation output
 * `requirements.txt` → Python dependencies
 * `README.md` → Project documentation
 
@@ -145,17 +148,22 @@ accelerate
 Make sure the background image is present in the project directory:
 
 ```bash
-image.png
+assets/background_image.png
 ```
 
 Your project should look like:
 
 ```bash
-GalaxyTranslator/
+Galaxy-Translator/
 ├── app.py
-├── image.png
+├── README.md
 ├── requirements.txt
-└── README.md
+├── assets/
+    ├── background_image.png
+│   ├── home.png
+│   └── translation.png
+└── .streamlit/
+    └── config.toml
 ```
 
 ---
