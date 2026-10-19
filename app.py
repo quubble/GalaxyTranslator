@@ -9,7 +9,7 @@ st.markdown("""
 <style>
 
 .stApp {
-    background-image: url("image.png");
+    background-image: url("assets/background_image.png");
     background-size: 220% 220%;
     background-position: center;
     animation: lavenderFlow 20s ease-in-out infinite;
