@@ -274,7 +274,7 @@ with col2:
     tgt_lang_name = st.selectbox(
         "🌏 Target Language",
         lang_list,
-        index=lang_list.index("Telugu"),
+        index=lang_list.index("Hindi"),
         placeholder="🔍 Search language..."
     )
 
